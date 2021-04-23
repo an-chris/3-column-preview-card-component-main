@@ -31,9 +31,10 @@ body {
 
 .card {
 
-  width: 240px;
-  height: 350px;
-  padding: .6rem;
+  width: 15rem;
+  height: 23rem;
+  padding: 2rem;
+
 }
 
 .card--sedans {
@@ -55,12 +56,15 @@ body {
 .card__title {
   font-family: var(--big-shoulders);
   color: var(--light-gray);
+  padding: 1rem 0;
 }
 
 .card__description {
   font-family: var(--lexend-deca);
   color: var(--transparent-white);
   font-size: .7rem;
+  line-height: 2;
+  padding: 1rem 0;
 }
 
 .btn {
@@ -68,8 +72,9 @@ body {
   font-family: var(--lexend-deca);
   background-color: var(--light-gray);
   font-size: .7rem;
-  padding: 1rem 2rem;
+  padding: .75rem 1.5rem;
   border: none;
+  margin-top: 1rem;
 }
 
 .btn--sedans {
