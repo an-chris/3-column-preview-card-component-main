@@ -21,11 +21,23 @@ body {
 }
 
 .cards {
-
+  
 }
 
 .card {
 
+}
+
+.card--sedans {
+  background-color: var(--bright-orange);
+}
+
+.card--suvs {
+  background-color: var(--dark-cyan);
+}
+
+.card--luxury {
+  background-color: var(--darker-cyan);
 }
 
 .card__image {
@@ -34,10 +46,12 @@ body {
 
 .card__title {
   font-family: var(--big-shoulders);
+  color: var(--light-gray)
 }
 
 .card__description {
   font-family: var(--lexend-deca);
+  color: var(--transparent-white)
 }
 
 .btn {
