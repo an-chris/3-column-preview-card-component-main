@@ -14,6 +14,30 @@
   box-sizing: border-box;
 }
 
+body {
+
+}
+
+.cards {
+
+}
+
+.card {
+
+}
+
+.card__image {
+
+}
+
+.card__title {
+  font-family: "Big Shoulders Display", sans-serif;
+}
+
+.card__description {
+  font-family: "Lexend Deca", sans-serif;
+}
+
 
 
 .attribution {
